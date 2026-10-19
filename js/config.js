@@ -1,0 +1,9 @@
+/* 調整用パラメータ：ここを変更すると採点と演出の基本値を調整できます。 */
+window.GAME_CONFIG = Object.freeze({
+  TARGET_BACK_WIDTH_RATIO: 0.20, TARGET_BACK_HEIGHT_RATIO: 0.32,
+  SCORE_ALPHA_THRESHOLD: 0.35, BRUSH_RADIUS_RATIO: 0.052,
+  BRUSH_SOFTNESS: 0.82, PAINT_STRENGTH: 0.72,
+  SCORE_EFFECT_MS: 1150, MOVE_MS: 720, PERFECT_BASE_SECONDS: 10,
+  PERFECT_TIME_FACTOR: 0.8, CONTINUE_SCORE: 80,
+  AUDIO_FILES: { bgm: 'assets/audio/bgm_factory.mp3', spray: 'assets/audio/sfx_spray.mp3', score: 'assets/audio/sfx_score.mp3' },
+});
