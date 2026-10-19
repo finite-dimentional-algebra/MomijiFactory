@@ -1,0 +1,19 @@
+このプロジェクトでは画像生成ツールが利用できなかったため、オフラインで動くCanvas描画を素材として使用しています。次のプロンプトで生成した素材に差し替えできます。
+
+1. 猫スプライト（assets/momiji-back.png）
+日本語: 透明背景、文字なし。かわいい丸い2Dデフォルメの茶白猫「もみじ」のお座りした後ろ姿。両腕と前足はクリーム色の白い毛、背中は塗装面として分かりやすい明るい薄茶色。耳の内側は淡いピンク。柔らかい輪郭、親しみやすい、全身、正面を向かない、影はごく薄く、ゲーム用スプライト。
+English: Transparent background, no text. Cute rounded 2D cartoon calico cat sitting and viewed strictly from behind. Cream-white forearms and paws, a clearly readable light warm tan back as a paintable surface, soft edges, friendly character, full body, no front view, minimal soft shadow, game sprite.
+
+2. 工場背景（assets/factory-bg.png）
+日本語: 縦長スマートフォン用、明るくポップでかわいいおもちゃ工場。ミント色とクリーム色の機械、ベルトコンベア、丸い窓とパイプ。中央はキャラクターが見やすい広い余白。高彩度だが淡いパステル、シンプルな2Dイラスト、文字や人物なし。
+English: Portrait smartphone game background, bright cute toy factory, mint and cream machinery, conveyor belt, rounded windows and pipes. Keep a large uncluttered central area for a character. Cheerful pastel 2D illustration, no text, no people.
+
+3. 10匹もみじ共有カード背景（assets/card-ten.png）
+日本語: 縦長SNSカード背景、もみじ製作所の明るいおもちゃ工場世界観。桃色、アプリコット、クリーム色。中央にスコアを置く大きな空白、上部にタイトルの空白、小さな星や泡。文字・数字・動物なし。
+English: Portrait social score-card background in a cheerful toy factory world, peach, apricot and cream palette. Large blank central score area, blank title area at top, tiny stars and bubbles near edges. No text, numbers, or animals.
+
+4. パーフェクトもみじ共有カード背景（assets/card-perfect.png）
+日本語: 縦長SNSカード背景、10匹用とは異なる爽やかなミント、ラベンダー、淡い金色の配色。かわいい工場の魔法のような雰囲気。中央に大きな記録表示用の余白、周辺に控えめな星と泡。文字・数字・動物なし。
+English: Portrait social score-card background distinct from the ten-cat design, fresh mint, lavender and pale gold palette, whimsical cute factory mood. Large empty record area in the center, subtle stars and bubbles at the edges. No text, numbers, or animals.
+
+素材差し替え時もゲーム中の背中の描画領域と採点マスクは js/painting.js の共有楕円を使ってください。
