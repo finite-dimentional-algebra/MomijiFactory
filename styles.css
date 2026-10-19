@@ -6,4 +6,5 @@
 
 
 .result-actions #retryButton{grid-column:1/-1}
+.result-actions #previewButton{grid-column:1/-1;min-height:48px;border-radius:18px;font-size:15px;letter-spacing:.02em}
 
